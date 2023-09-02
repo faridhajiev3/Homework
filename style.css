@@ -61,4 +61,30 @@ section {
   }
 }
 
-@im;/*# sourceMappingURL=style.css.map */
+#about .minibox {
+  border: solid #4ff825;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  transition: 2s;
+}
+#about .minibox:hover {
+  transform: rotate(360deg);
+  width: 300px;
+  height: 300px;
+  background-color: #40ecf1;
+  font-size: 40px;
+}
+@media screen and (max-width: 700px) {
+  #about .minibox {
+    border: solid #25f864;
+    background-color: #24c7f8;
+    height: 250px;
+    width: 350px;
+    margin: 10px 0;
+    font-size: 35px;
+  }
+  #about .minibox h1 {
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
