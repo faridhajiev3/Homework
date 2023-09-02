@@ -89,4 +89,23 @@ section {
   }
 }
 
-@i;/*# sourceMappingURL=style.css.map */
+#bios .minibox {
+  border: solid #e716c4;
+  width: 100px;
+  height: 100px;
+  transition: 2s;
+  transition-delay: 1s;
+}
+#bios .minibox h1 {
+  padding: 15px;
+}
+#bios .minibox:hover {
+  border-radius: 30px;
+  font-size: 30px;
+  width: 250px;
+  height: 250px;
+  background-color: #e716c4;
+}
+#bios .minibox:hover h1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
